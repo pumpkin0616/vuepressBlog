@@ -45,6 +45,7 @@ module.exports = {
   themeConfig: {
     nav:[ // 导航栏配置
       {text: '前端基础', link: '/accumulate/' },
+      {text:'部署相关',link:'/deployment/'},
       {text: '微博', link: 'https://weibo.com'}      
     ],
     sidebar: 'auto', // 侧边栏配置
