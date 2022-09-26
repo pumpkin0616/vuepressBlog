@@ -9,7 +9,7 @@
     ```make install```
 5. 启动 ```/usr/local/nginx/sbin/nginx -c /usr/local/nginx/conf/nginx.conf```
 6. 重启 ```/usr/local/nginx/sbin/nginx -s reload```
-
+111
 ## 配置文件
 > usr/local/nginx/conf/nginx.conf文件
 
