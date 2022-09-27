@@ -3,13 +3,13 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>CentOS配置nginx 部署项目 | Pumpkin&#39;s blog</title>
+    <title>环境配置 | Pumpkin&#39;s blog</title>
     <meta name="generator" content="VuePress 1.9.7">
     <link rel="icon" href="/images/Pumpkin.png">
     <meta name="description" content="我的个人网站">
     
-    <link rel="preload" href="/assets/css/0.styles.b370544d.css" as="style"><link rel="preload" href="/assets/js/app.fcdd85d1.js" as="script"><link rel="preload" href="/assets/js/2.af8b2549.js" as="script"><link rel="preload" href="/assets/js/9.885345e4.js" as="script"><link rel="prefetch" href="/assets/js/3.6f11708d.js"><link rel="prefetch" href="/assets/js/4.91531b5c.js"><link rel="prefetch" href="/assets/js/5.2065a338.js"><link rel="prefetch" href="/assets/js/6.fb7d447b.js"><link rel="prefetch" href="/assets/js/7.bc600473.js"><link rel="prefetch" href="/assets/js/8.6fdcf693.js">
-    <link rel="stylesheet" href="/assets/css/0.styles.b370544d.css">
+    <link rel="preload" href="/assets/css/0.styles.d0cae71c.css" as="style"><link rel="preload" href="/assets/js/app.993da87a.js" as="script"><link rel="preload" href="/assets/js/2.af8b2549.js" as="script"><link rel="preload" href="/assets/js/9.8fa48094.js" as="script"><link rel="prefetch" href="/assets/js/3.ea9901a8.js"><link rel="prefetch" href="/assets/js/4.ba3f06df.js"><link rel="prefetch" href="/assets/js/5.908bfff9.js"><link rel="prefetch" href="/assets/js/6.fb7d447b.js"><link rel="prefetch" href="/assets/js/7.5048721a.js"><link rel="prefetch" href="/assets/js/8.282a8222.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.d0cae71c.css">
   </head>
   <body>
     <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">Pumpkin's blog</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/accumulate/" class="nav-link">
@@ -24,7 +24,7 @@
   部署相关
 </a></div><div class="nav-item"><a href="https://weibo.com" target="_blank" rel="noopener noreferrer" class="nav-link external">
   微博
-  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>CentOS配置nginx 部署项目</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/deployment/#下载安装" class="sidebar-link">下载安装</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/deployment/#配置文件" class="sidebar-link">配置文件</a><ul class="sidebar-sub-headers"></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="centos配置nginx-部署项目"><a href="#centos配置nginx-部署项目" class="header-anchor">#</a> CentOS配置nginx 部署项目</h1> <h2 id="下载安装"><a href="#下载安装" class="header-anchor">#</a> 下载安装</h2> <ol><li>下载 <code>wget -c https://nginx.org/download/nginx-1.18.0.tar.gz</code></li> <li>解压 <code>tar -zxvf nginx-1.18.0.tar.gz</code></li> <li>配置：需要SSL:<code>./configure --prefix=/usr/local/nginx</code>
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>环境配置</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/deployment/#centos配置nginx-部署项目" class="sidebar-link">CentOS配置nginx 部署项目</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/deployment/#下载安装" class="sidebar-link">下载安装</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/deployment/#配置文件" class="sidebar-link">配置文件</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/deployment/#centos下载配置mysql" class="sidebar-link">centOS下载配置MySQL</a><ul class="sidebar-sub-headers"></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="环境配置"><a href="#环境配置" class="header-anchor">#</a> 环境配置</h1> <h2 id="centos配置nginx-部署项目"><a href="#centos配置nginx-部署项目" class="header-anchor">#</a> CentOS配置nginx 部署项目</h2> <h2 id="下载安装"><a href="#下载安装" class="header-anchor">#</a> 下载安装</h2> <ol><li>下载 <code>wget -c https://nginx.org/download/nginx-1.18.0.tar.gz</code></li> <li>解压 <code>tar -zxvf nginx-1.18.0.tar.gz</code></li> <li>配置：需要SSL:<code>./configure --prefix=/usr/local/nginx</code>
 不需要SSL:<code>./configure --prefix=/usr/local/nginx --with-http_stub_status_module --with-http_ssl_module</code></li> <li>编译安装
 <code>make</code> <code>make install</code></li> <li>启动 <code>/usr/local/nginx/sbin/nginx -c /usr/local/nginx/conf/nginx.conf</code></li> <li>重启 <code>/usr/local/nginx/sbin/nginx -s reload</code></li></ol> <h2 id="配置文件"><a href="#配置文件" class="header-anchor">#</a> 配置文件</h2> <blockquote><p>usr/local/nginx/conf/nginx.conf文件</p></blockquote> <div class="language-javascript height:100px extra-class"><pre class="language-javascript"><code>
 #user  nobody<span class="token punctuation">;</span>
@@ -145,7 +145,21 @@ http <span class="token punctuation">{</span>
 
 <span class="token punctuation">}</span>
 
-</code></pre></div></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"><canvas id="vuepress-canvas-cursor"></canvas><div></div><div id="goTop" class="hide-cat" data-v-bf92849a></div></div></div>
-    <script src="/assets/js/app.fcdd85d1.js" defer></script><script src="/assets/js/2.af8b2549.js" defer></script><script src="/assets/js/9.885345e4.js" defer></script>
+</code></pre></div><h2 id="centos下载配置mysql"><a href="#centos下载配置mysql" class="header-anchor">#</a> centOS下载配置MySQL</h2> <ol><li>安装之前检测系统是否有自带的MySQL
+<code>rpm -qa | grep mysql #检查是否安装过MySQL</code></li></ol> <p><code>rpm -qa | grep mariadb #检查是否存在 mariadb 数据库（内置的MySQL数据库），有则强制删除</code></p> <p><code>rpm -e --nodeps mariadb-libs-5.5.68-1.el7.x86_64 #强制删除</code></p> <p><code>rpm -e --nodeps mariadb-5.5.68-1.el7.x86_64 #强制删除</code>
+2. 安装步骤</p> <ul><li>下载MySQL源
+curl -O</li></ul> <p>https://repo.mysql.com//mysql57-community-release-el7-11.noarch.rpm</p> <ul><li><p>安装MySQL源
+yum localinstall mysql57-community-release-el7-11.noarch.rpm</p></li> <li><p>检查MySQL源是否安装成功
+yum repolist enabled | grep &quot;mysql.<em>-community.</em>&quot;</p></li> <li><p>有了MySQL源后安装MySQL
+<code>yum install mysql-community-server</code></p></li> <li><p>输入确认继续安装
+安装报错，提示无公共秘钥
+解决方法：
+<code>rpm --import https://repo.mysql.com/RPM-GPG-KEY-mysql-2022</code></p></li></ul> <p>然后再次安装</p> <ul><li><p>查看是否安装成功
+<code>yum list installed mysql-*</code></p></li> <li><p>启动MySQL并检查MySQL运行状态
+<code>systemctl start mysqld</code></p></li></ul> <p><code>systemctl status mysqld</code></p> <ul><li>获取MySQL默认登录密码，登录MySQL，并修改默认密码</li></ul> <p><code>grep 'temporary password' /var/log/mysqld.log</code></p> <p>输入以下命令后，再输入默认登录密码，就能以 root 帐号登录 mysql</p> <p><code>mysql -uroot -p</code></p> <p>在创建数据库或数据表之前，要先用一下命令修改 root 用户的密码</p> <p><code>ALTER USER 'root'@'localhost' IDENTIFIED BY '新密码';</code></p> <blockquote><p>PS：MySQL默认的密码复杂度为 MEDIUM，所以新密码至少为8位，并且必须包含大、小写字母、数字和特殊字符</p></blockquote> <ul><li>授予root用户远程访问权限，并刷新权限使生效
+<code>grant all privileges on *.* to 'root' @'%' identified by 'Mysql@123';</code></li></ul> <p>第一个*是数据库，可以改成允许访问的数据库名称</p> <p>第二个 是数据库的表名称，代表允许访问任意的表</p> <p>root代表远程登录使用的用户名，可以自定义</p> <p>%代表允许任意ip登录，如果你想指定特定的IP，可以把%替换掉就可以了</p> <p>password代表远程登录时使用的密码，可以自定义</p> <p>让权限立即生效：<code>flush privileges</code>
+3. 卸载MySQL</p> <ul><li>查看MySQL安装情况：<code>rpm -qa | grep mysql</code>
+强制删除已安装MySQL</li> <li>查找所有MySQL目录并删除：<code>find / -name mysql</code></li> <li>删除my.cnf：<code>rm -f /etc/my.cnf</code></li></ul></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"><canvas id="vuepress-canvas-cursor"></canvas><div></div><div id="goTop" class="hide-cat" data-v-bf92849a></div></div></div>
+    <script src="/assets/js/app.993da87a.js" defer></script><script src="/assets/js/2.af8b2549.js" defer></script><script src="/assets/js/9.8fa48094.js" defer></script>
   </body>
 </html>
