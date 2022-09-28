@@ -207,3 +207,9 @@ password代表远程登录时使用的密码，可以自定义
 强制删除已安装MySQL
 - 查找所有MySQL目录并删除：```find / -name mysql ```
 - 删除my.cnf：```rm -f /etc/my.cnf```
+
+## 杀死端口
+
+```1. sudo lsof -i tcp:port```
+
+```2. sudo kill -9 PID```
